@@ -1,0 +1,20 @@
+{
+    "eslint.enable": true,
+    "eslint.validate": ["typescript"],
+    "prettier.enable": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#e0e0e0",
+        "statusBar.foreground": "#000000"
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+}

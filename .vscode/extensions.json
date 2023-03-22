@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "bierner.github-markdown-preview",
+        "github.github-vscode-theme",
+        "pkief.material-icon-theme",
+        "esbenp.prettier-vscode",
+        "wayou.vscode-todo-highlight"
+    ]
+}
