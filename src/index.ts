@@ -1,5 +1,9 @@
+import {
+    getDriveService,
+} from "./googleApi";
 async function main() {
-    console.log("Hello, World!");
+    logger.heading("[GDown]");
+    const driveService = getDriveService();
 }
 
 if (require.main === module) {
