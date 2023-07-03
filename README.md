@@ -1,4 +1,10 @@
-# google drive download automation (NodeJS)
+# GDown
+
+Google Drive Folder Downloader, NodeJS CLI
+
+## Description
+
+Downloading a complete folder from google drive triggers creation of an archive of the folder first, which takes ages. So, this cli tool can be used to download a complete folder one file at a time without creating an archive.
 
 ## Setup
 
