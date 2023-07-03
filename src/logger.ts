@@ -4,8 +4,8 @@ export default {
     heading: function (msg: string) {
         console.log(chalk.bgWhiteBright.bold(msg));
     },
-    print: function (msg: string) {
-        console.log("🔵", msg);
+    print: function (...objects: unknown[]) {
+        console.log("🔵", ...objects);
     },
     error: function (msg: string) {
         console.log("🔴", chalk.bgRed(msg));
